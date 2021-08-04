@@ -133,8 +133,8 @@ export default function Home() {
                   <span className="block text-indigo-600 xl:inline">meditation app</span>
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl">
-                  Building a happier and healthier world through open source and free forever
-                  meditation. Built with React Native. 🧘‍♀️
+                  Building a healthier world through open source and free meditation. Built with
+                  React Native. 🧘‍♀️
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center">
                   <div className="rounded-md shadow">
@@ -160,8 +160,12 @@ export default function Home() {
             </main>
           </div>
         </div>
-        <div className="rounded-lg ring-1 ring-gray-900 ring-opacity-5 overflow-hidden bg-white">
-          <img className="sm:block w-full h-auto" src="/hero.jpg" alt="Meditation app" />
+        <div className="justify-center bg-white">
+          <img
+            className="sm:block justify-center w-auto m-auto h-auto"
+            src="/hero.jpg"
+            alt="Meditation app"
+          />
         </div>
       </div>
     </>
