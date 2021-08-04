@@ -3,7 +3,14 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
-const navigation = []
+const navigation = [
+  { name: 'Github', href: 'https://github.com/heylinda/heylinda-app', target: '_blank' },
+  {
+    name: 'Slack',
+    href: 'https://join.slack.com/t/heylinda/shared_invite/zt-to976i3o-qPBT6C~pU0QjyMeMgvMVYQ',
+    target: '_blank',
+  },
+]
 
 export default function Home() {
   return (
@@ -45,6 +52,7 @@ export default function Home() {
                     <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                       {navigation.map((item) => (
                         <a
+                          target={item.target}
                           key={item.name}
                           href={item.href}
                           className="font-medium text-gray-500 hover:text-gray-900"
@@ -52,6 +60,13 @@ export default function Home() {
                           {item.name}
                         </a>
                       ))}
+                      <a
+                        target="_blank"
+                        href="https://opencollective.com/heylinda"
+                        className="font-medium text-indigo-600 hover:text-indigo-500"
+                      >
+                        Donate
+                      </a>
                     </div>
                   </nav>
                 </div>
