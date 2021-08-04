@@ -103,6 +103,7 @@ export default function Home() {
                           <a
                             key={item.name}
                             href={item.href}
+                            target={item.target}
                             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                           >
                             {item.name}
@@ -110,10 +111,11 @@ export default function Home() {
                         ))}
                       </div>
                       <a
-                        href="#"
+                        target="_blank"
+                        href="https://opencollective.com/heylinda"
                         className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                       >
-                        Log in
+                        Donate
                       </a>
                     </div>
                   </Popover.Panel>
@@ -130,7 +132,7 @@ export default function Home() {
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Building a happier and healthier world through open source and free forever
-                meditation. 🧘‍♀️
+                meditation. Built with React Native. 🧘‍♀️
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
