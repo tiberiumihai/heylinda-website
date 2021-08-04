@@ -158,7 +158,7 @@ export default function Home() {
           </div>
         </div>
         <div className="rounded-lg ring-1 ring-gray-900 ring-opacity-5 overflow-hidden bg-white">
-          <img className="hidden sm:block w-full h-auto" src="/hero.jpg" alt="Meditation app" />
+          <img className="sm:block w-full h-auto" src="/hero.jpg" alt="Meditation app" />
         </div>
       </div>
     </>
