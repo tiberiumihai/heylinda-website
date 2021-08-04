@@ -126,6 +126,9 @@ export default function Home() {
             <main className="mt-10 mx-auto w- px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div className="sm:text-center lg:text-center">
                 <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                  <span class="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
+                    Coming soon
+                  </span>
                   <span className="block">A 100% free</span>{' '}
                   <span className="block text-indigo-600 xl:inline">meditation app</span>
                 </h1>
