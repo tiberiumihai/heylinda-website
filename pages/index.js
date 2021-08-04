@@ -3,12 +3,7 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
-const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
-]
+const navigation = []
 
 export default function Home() {
   return (
@@ -52,7 +47,11 @@ export default function Home() {
                     </div>
                     <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                       {navigation.map((item) => (
-                        <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900">
+                        <a
+                          key={item.name}
+                          href={item.href}
+                          className="font-medium text-gray-500 hover:text-gray-900"
+                        >
                           {item.name}
                         </a>
                       ))}
@@ -125,8 +124,8 @@ export default function Home() {
                 <span className="block text-indigo-600 xl:inline">online business</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.
+                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
+                commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
