@@ -140,10 +140,10 @@ export default function Home() {
                   <div className="rounded-md shadow">
                     <a
                       target="_blank"
-                      href="https://join.slack.com/t/heylinda/shared_invite/zt-to976i3o-qPBT6C~pU0QjyMeMgvMVYQ"
+                      href="https://tinyletter.com/heylinda"
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                     >
-                      Join the community
+                      Join the waitlist
                     </a>
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-3">
