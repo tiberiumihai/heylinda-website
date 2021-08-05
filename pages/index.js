@@ -1,7 +1,8 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { CurrencyDollarIcon, EyeIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import { AnnotationIcon, MoonIcon, ChartBarIcon } from '@heroicons/react/outline'
 import Head from 'next/head'
 
 const navigation = [
@@ -10,6 +11,29 @@ const navigation = [
     name: 'Slack',
     href: 'https://join.slack.com/t/heylinda/shared_invite/zt-to976i3o-qPBT6C~pU0QjyMeMgvMVYQ',
     target: '_blank',
+  },
+]
+
+const features = [
+  {
+    name: 'Meditate',
+    description: '100+ Meditations',
+    icon: EyeIcon,
+  },
+  {
+    name: 'Track Progress',
+    description: 'Track your progress using the calendar activity',
+    icon: ChartBarIcon,
+  },
+  {
+    name: 'Dark mode',
+    description: 'Light and dark mode depending on your mood',
+    icon: MoonIcon,
+  },
+  {
+    name: '100% Free',
+    description: 'Unlike other app we are donation based meditation ',
+    icon: CurrencyDollarIcon,
   },
 ]
 
@@ -168,6 +192,39 @@ export default function Home() {
           />
         </div>
       </div>
+      {/* <div className="pb-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="lg:text-center">
+            <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
+              Features
+            </h2>
+            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              A simple way to meditate
+            </p>
+            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+              Hey Linda is a free app that helps you meditate without too much fluff.
+            </p>
+          </div>
+
+          <div className="mt-10">
+            <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+              {features.map((feature) => (
+                <div key={feature.name} className="relative">
+                  <dt>
+                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                      <feature.icon className="h-6 w-6" aria-hidden="true" />
+                    </div>
+                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
+                      {feature.name}
+                    </p>
+                  </dt>
+                  <dd className="mt-2 ml-16 text-base text-gray-500">{feature.description}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </div>
+      </div> */}
     </>
   )
 }
