@@ -57,7 +57,7 @@ export default function Home() {
                         ))}
                         <a
                           target="_blank"
-                          href="https://opencollective.com/heylinda"
+                          href="https://opencollective.com/heylinda/donate"
                           className="font-medium text-indigo-600 hover:text-indigo-500"
                         >
                           Donate
@@ -111,7 +111,7 @@ export default function Home() {
                         </div>
                         <a
                           target="_blank"
-                          href="https://opencollective.com/heylinda"
+                          href="https://opencollective.com/heylinda/donate"
                           className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                         >
                           Donate
@@ -149,10 +149,10 @@ export default function Home() {
                   <div className="mt-3 sm:mt-0 sm:ml-3">
                     <a
                       target="_blank"
-                      href="https://github.com/heylinda/heylinda-app"
+                      href="https://opencollective.com/heylinda/donate"
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo md:py-4 md:text-lg md:px-10"
                     >
-                      Github
+                      Donate
                     </a>
                   </div>
                 </div>
